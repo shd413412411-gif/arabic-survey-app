@@ -345,7 +345,7 @@ export default function Home() {
             onClick={() => {
               const newlyAnswered = selectAnswer(question, option);
               if (rowMode && newlyAnswered && question < QUESTION_COUNT) {
-                window.setTimeout(() => setCurrentQuestion((current) => Math.min(QUESTION_COUNT, current + 1)), 180);
+                window.setTimeout(() => setCurrentQuestion((current) => Math.min(QUESTION_COUNT, current + 1)), 100);
               }
             }}
           >{option}</button>
