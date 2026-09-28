@@ -1,0 +1,12 @@
+{
+  "name": "استبيان نفسي",
+  "short_name": "الاستبيان",
+  "description": "استبيان نفسي عربي من 28 بندًا، مع حفظ محلي وعمل دون اتصال.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3f7f3",
+  "theme_color": "#2c6e49"
+}
